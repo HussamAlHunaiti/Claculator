@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcolator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="div-calc">
+        <div class="div-result">
+            <div>
+                <button class="button-ac" id="button-ac" onclick="FuncAC()" >AC</button>
+                <button class="button-on-off" id="button-on-off" onclick="FuncOnOff()" >On/Off</button>
+            </div>
+            <div>
+                <p id="p-result" class="p-result"></p>
+            </div>    
+        </div>
+        <div>
+            <button class="button-num" id="button-num" onclick="FuncNumber('7')">7</button>
+            <button class="button-num" id="button-num" onclick="FuncNumber('8')">8</button>
+            <button class="button-num" id="button-num" onclick="FuncNumber('9')">9</button>
+            <button class="button-ops" id="button-ops" onclick="FuncOps('/')" >/</button>
+        </div>
+        <div>
+            <button class="button-num" id="button-num"  onclick="FuncNumber('4')">4</button>
+            <button class="button-num" id="button-num"  onclick="FuncNumber('5')">5</button>
+            <button class="button-num" id="button-num"  onclick="FuncNumber('6')">6</button>
+            <button class="button-ops" id="button-ops"  onclick="FuncOps('*')">*</button>
+        </div>
+        <div>
+            <button class="button-num" id="button-num" onclick="FuncNumber('1')">1</button>
+            <button class="button-num" id="button-num" onclick="FuncNumber('2')">2</button>
+            <button class="button-num" id="button-num" onclick="FuncNumber('3')">3</button>
+            <button class="button-ops" id="button-ops" onclick="FuncOps('-')">-</button>
+        </div>
+        <div>
+            <button class="button-num" id="button-num-0" onclick="FuncNumber('0')" DbZ = "divide by zero is disable">0</button>
+            <button class="button-num" id="button-num" onclick="FuncNumber('.')">.</button>
+            <button class="button-equal" id="button-equal" onclick="FuncEqual()">=</button>
+            <button class="button-ops" id="button-ops" onclick="FuncOps('+')">+</button>
+        </div>
+    </div>
+    
+    <script src="./Calc.js"></script>
+</body>
+</html>

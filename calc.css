@@ -1,0 +1,70 @@
+    body{
+        background-color: white;
+        margin: 0%;
+    }
+
+    .div-calc{
+        display: flex;
+        flex-direction: column;
+        margin:10% 25%;
+        
+    }
+
+    .div-calc > div {
+        display: flex;
+        flex-direction:row ;
+        padding : 3px;
+        width:100%;
+    }
+
+    .div-result:first-child{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .div-result:last-child{
+        background-color: white;
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    div > button {
+        border: none;
+        margin: 3px;
+        padding: 10px;
+        width: 24%;
+    }
+
+    .button-on-off , .button-ac { 
+        background-color: teal;
+        color: white;
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+
+    .p-result{
+        color: blueviolet;
+        font-size: 42px;
+        margin: 0 0 50% 100%;
+        width:100%;
+    }
+
+    .button-num{
+        background-color: blueviolet;
+        color:white;
+    }
+
+    .button-num:hover{
+        opacity: 0.5;
+        padding:5px;
+    }
+
+    .button-ops{
+        background-color: darkorange;
+        color:white;
+    }
+
+    .button-equal{
+        background-color: coral;
+    }
